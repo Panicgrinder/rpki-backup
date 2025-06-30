@@ -1,0 +1,17 @@
+{
+  "is_template": true,
+  "sector_id": "A1",
+  "status": "unexplored",
+  "environmental_flags": [],
+  "last_visited": "to_define",
+  "available_exits": [],
+  "special_features": [],
+  "locations": [],
+  "active_events": [],
+  "unlock_requires": [],
+  "admin_notes": "",
+  "meta": {
+    "created_by": "GPT-4o",
+    "created_at": "to_define"
+  }
+}

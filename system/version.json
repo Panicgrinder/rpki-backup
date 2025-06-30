@@ -1,0 +1,11 @@
+{
+  "is_template": true,
+  "engine_version": "1.0.0",
+  "date_created": "to_define",
+  "compatible_with": [
+    "1.x"
+  ],
+  "core_ruleset": "postapo_standard_v1",
+  "structure_hash": "system+world+character+missions+economy+systems_v1",
+  "change_log": []
+}

@@ -1,0 +1,11 @@
+{
+  "is_template": true,
+  "todo": [],
+  "users": [
+    {
+      "user_id": "to_define",
+      "role": "to_define",
+      "display_name": "to_define"
+    }
+  ]
+}

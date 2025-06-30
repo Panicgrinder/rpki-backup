@@ -1,0 +1,47 @@
+{
+  "is_template": true,
+  "session_id": "to_define",
+  "user_id": "to_define",
+  "world_id": "to_define",
+  "version_ref": {
+    "engine": "1.0.0",
+    "ruleset": "postapo_standard_v1",
+    "features": [
+      "modular_save",
+      "github_sync",
+      "character_generator_v2"
+    ]
+  },
+  "session_tags": [],
+  "player_role": "to_define",
+  "active_actors": [],
+  "last_modified": "to_define",
+  "current_location": "location:to_define",
+  "world_time": "to_define",
+  "status": "template",
+  "save_allowed": false,
+  "mode": "standard",
+  "story_arc": "to_define",
+  "progression": "to_define",
+  "last_checkpoints": [],
+  "flags": {},
+  "session_notes": "template file \u2013 do not modify directly",
+  "last_command": "to_define",
+  "last_conflict": {
+    "time": "to_define",
+    "participants": [],
+    "outcome": "to_define"
+  },
+  "world_state": "environment_status",
+  "last_log_id": 0,
+  "automation": {
+    "autosave": true,
+    "github_commit": true
+  },
+  "references": {
+    "todo": "system/todo.json",
+    "environment_status": "system/environment_status.json",
+    "story_progress": "system/story_progress.json",
+    "log": "system/log.json"
+  }
+}

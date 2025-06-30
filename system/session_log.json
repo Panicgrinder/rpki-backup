@@ -1,0 +1,12 @@
+{
+  "is_template": true,
+  "log_entries": [],
+  "archive_version": 0,
+  "users": [
+    {
+      "user_id": "to_define",
+      "role": "to_define",
+      "display_name": "to_define"
+    }
+  ]
+}
