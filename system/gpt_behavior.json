@@ -1,10 +1,54 @@
 {
   "rules": [
     {
+      "id": "language_en",
+      "target": "system-wide",
+      "description": "All system files must use strict, compact English. User/player output may be in German."
+    },
+    {
       "id": "engine_readonly",
       "target": "/system/engine.json",
-      "description": "Die Datei /system/engine.json darf nach dem Abschluss der Systemkonfiguration im Spielbetrieb ausschließlich lesend verwendet werden. Änderungen an dieser Datei sind nur durch Administratoren im Setup- oder Wartungsmodus erlaubt. Die Spielleiter-KI darf sie niemals zur Laufzeit verändern."
+      "description": "Read-only after setup. Modifiable only by admin, not by GPT in runtime."
+    },
+    {
+      "id": "versioning_gpt",
+      "target": "system-wide",
+      "description": "All versioning is handled automatically by GPT."
+    },
+    {
+      "id": "crossref_redundancy_check",
+      "target": "system-wide",
+      "description": "On every change, GPT checks all file and ID references for validity and uniqueness. Automatic correction is allowed and logged, except for system files which must only be logged and require user/admin confirmation."
+    },
+    {
+      "id": "id_management",
+      "target": "system-wide",
+      "description": "All IDs are unique, sequential, and managed by GPT."
+    },
+    {
+      "id": "consistency_check",
+      "target": "system-wide",
+      "description": "All system files must remain consistent and validated after any change."
+    },
+    {
+      "id": "modularity",
+      "target": "system-wide",
+      "description": "All data structures are modular and individually extendable."
+    },
+    {
+      "id": "logging",
+      "target": "system-wide",
+      "description": "All system file changes are logged with timestamp, change type, and user."
+    },
+    {
+      "id": "template_handling",
+      "target": "templates",
+      "description": "Templates are only edited by GPT and user in this environment, and used as copy source for new game instances."
+    },
+    {
+      "id": "gpt_data_admin",
+      "target": "system-wide",
+      "description": "The gamemaster AI (GPT) manages all relevant game and system data dynamically and virtually. System files are only changed as allowed by these rules."
     }
-    // ...weitere Regeln
   ]
 }
