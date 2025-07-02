@@ -1,17 +1,9 @@
 {
   "is_template": true,
-  "event_id": "EVT-001",
-  "type": "global",
-  "name": "Power Outage",
-  "description": "The main metro grid loses power for several hours.",
-  "triggers": [],
-  "effects": [],
-  "related_sectors": [
-    "A1",
-    "C3"
-  ],
-  "meta": {
-    "created_by": "GPT-4o",
-    "created_at": "to_define"
-  }
+  "event_id": "{{event_id}}",
+  "title": "{{event_title}}",
+  "description": "{{event_description}}",
+  "location": "{{event_location}}",
+  "actors": ["{{player_id}}", "{{npc_id}}"],
+  "status": "{{event_status}}"
 }
