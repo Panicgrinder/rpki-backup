@@ -1,3 +1,10 @@
 {
-  "is_template": true
+  "rules": [
+    {
+      "id": "engine_readonly",
+      "target": "/system/engine.json",
+      "description": "Die Datei /system/engine.json darf nach dem Abschluss der Systemkonfiguration im Spielbetrieb ausschließlich lesend verwendet werden. Änderungen an dieser Datei sind nur durch Administratoren im Setup- oder Wartungsmodus erlaubt. Die Spielleiter-KI darf sie niemals zur Laufzeit verändern."
+    }
+    // ...weitere Regeln
+  ]
 }
