@@ -1,8 +1,8 @@
 {
   "is_template": true,
-  "index": [],
-  "meta": {
-    "last_modified": "to_define",
-    "count": 0
-  }
+  "events": [
+    {
+      "file": "events/{{event_file}}.json"
+    }
+  ]
 }
