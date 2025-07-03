@@ -1,17 +1,22 @@
 {
   "is_template": true,
-  "sector_id": "A1",
-  "status": "unexplored",
-  "environmental_flags": [],
-  "last_visited": "to_define",
-  "available_exits": [],
-  "special_features": [],
-  "locations": [],
-  "active_events": [],
-  "unlock_requires": [],
-  "admin_notes": "",
-  "meta": {
-    "created_by": "GPT-4o",
-    "created_at": "to_define"
-  }
+  "sectors": [
+    {
+      "sector_id": "{{sector_id}}",
+      "status": "{{sector_status}}",
+      "environmental_flags": ["{{flag}}"],
+      "last_visited": "{{iso_timestamp}}",
+      "available_exits": ["{{sector_id}}"],
+      "special_features": ["{{feature}}"],
+      "locations": ["{{location_id}}"],
+      "active_events": ["{{event_id}}"],
+      "unlock_requires": ["{{requirement_id}}"],
+      "admin_notes": "",
+      "meta": {
+        "created_by": "GPT-4o",
+        "created_at": "{{iso_timestamp_created}}"
+      }
+    }
+    // Weitere Sektoren nach Muster
+  ]
 }
