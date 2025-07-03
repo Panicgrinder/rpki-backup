@@ -1,17 +1,16 @@
 {
   "is_template": true,
-  "location_id": "LOC-3001",
-  "name": "Harven Docks",
-  "type": "station",
-  "description": "to_define",
-  "sector_id": "A1",
-  "discovered": false,
-  "difficulty": "to_define",
-  "loot_table": [],
-  "event_triggers": [],
-  "admin_notes": "",
-  "meta": {
-    "created_by": "GPT-4o",
-    "created_at": "to_define"
-  }
+  "locations": [
+    {
+      "id": "{{location_id}}",
+      "name": "{{location_name}}",
+      "sector": "{{sector_id}}",
+      "type": "{{location_type}}",
+      "description": "{{location_description}}",
+      "coordinates": "{{coordinates}}",
+      "linked_events": ["{{event_id}}"],
+      "faction": "{{faction_id}}"
+    }
+    // Weitere Locations nach gleichem Muster
+  ]
 }
