@@ -1,11 +1,14 @@
 {
   "is_template": true,
-  "todo": [],
-  "users": [
+  "tasks": [
     {
-      "user_id": "to_define",
-      "role": "to_define",
-      "display_name": "to_define"
+      "id": "{{task_id}}",
+      "title": "{{task_title}}",
+      "description": "{{task_description}}",
+      "status": "{{task_status}}",
+      "assigned_to": "{{user_or_system}}",
+      "created": "{{iso_timestamp}}",
+      "completed": "{{iso_timestamp_completed}}"
     }
   ]
 }
